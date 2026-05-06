@@ -1,137 +1,87 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-Hant">
 <head>
-   <title>NECINA - New England Chinese Information and Networking Association</title>
+    <meta charset="UTF-8">
+    <title>NECINA History</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --bg: #f4f7f6;
+        }
+        body { font-family: system-ui, sans-serif; background: var(--bg); padding: 2rem; display: flex; justify-content: center; }
+        .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); width: 100%; max-width: 800px; }
+        h2 { text-align: center; color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 10px; }
+        
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th { background: var(--accent); color: white; padding: 12px; text-align: left; }
+        td { padding: 10px 12px; border-bottom: 1px solid #eee; }
+        
+        /* Zebra striping via CSS */
+        tbody tr:nth-child(even) { background: #f9fbfd; }
+        tbody tr:hover { background: #edf7ff; } /* Simple hover effect */
+        .current { background: #e8f4fd !important; font-weight: bold; }
+    </style>
 </head>
-<!-- body text="#FFFF00" bgcolor="#FFFFFF" link="#FF0000" vlink="#551A8B" alink="#FF0000" background="teal_paper.gif" -->
-<body  bgcolor="#FFFFFF">
+<body>
 
-<center>
-<H1>NECINA</H1>
-<h2>
-New England Chinese Information and Networking
-Association
-</center>
-</h2>
+<div class="card">
+    <h2>30-Year NECINA Web History by President Name and Fiscal Year</h2>
+    <table id="historyTable">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Fiscal Year Web Link</th>
+                <th>中文姓名</th>
+                <th>English Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><a href="https://necina-history.github.io/web/archive/1996-1997/http%3A/www.necina.org/">1996-1997</a></td><td>陳五福</td><td>Wufu Chen</td></tr>
+            <tr><td>2</td><td>1997-1998</td><td>吳錦城</td><td>Cheng Wu</td></tr>
+            <tr><td>3</td><td>1998-1999</td><td>宋利偉</td><td>Ed Song</td></tr>
+            <tr><td>4</td><td>1999-2000</td><td>許基康</td><td>Chi Shue</td></tr>
+            <tr><td>5</td><td>2000-2001</td><td>余 鴻</td><td>Hong Yu</td></tr>
+            <tr><td>6</td><td>2001-2002</td><td>邱瑞賢</td><td>Dick Chiu</td></tr>
+            <tr><td>7</td><td>2002-2003</td><td>尹南鷹</td><td>Nanying Yin</td></tr>
+            <tr><td>8</td><td>2003-2004</td><td>王 雷</td><td>Alex Wang</td></tr>
+            <tr><td>9</td><td>2004-2005</td><td>王義明</td><td>Jimmy Wang</td></tr>
+            <tr><td>10</td><td>2005-2006</td><td>陸德禮</td><td>Daryl Luk</td></tr>
+            <tr><td>11</td><td>2006-2007</td><td>王 軍</td><td>Jun Wang</td></tr>
+            <tr><td>12</td><td>2007-2008</td><td>李紀鵬</td><td>Jipeng Li</td></tr>
+            <tr><td>13</td><td>2008-2009</td><td>寧 可</td><td>Nick Ning</td></tr>
+            <tr><td>14</td><td>2009-2010</td><td>陸德禮</td><td>Daryl Luk</td></tr>
+            <tr><td>15</td><td>2010-2011</td><td>陳君瑤</td><td>Jenny Chen</td></tr>
+            <tr><td>16</td><td>2011-2012</td><td>沈心焯</td><td>Sean Shen</td></tr>
+            <tr><td>17</td><td>2012-2013</td><td>洪銘勝</td><td>Mingsheng Hong</td></tr>
+            <tr><td>18</td><td>2013-2014</td><td>鄭 茹</td><td>Ru Zheng</td></tr>
+            <tr><td>19</td><td>2014-2015</td><td>陶東斌</td><td>Ben Tao</td></tr>
+            <tr><td>20</td><td>2015-2016</td><td>王振榕</td><td>John Wang</td></tr>
+            <tr><td>21</td><td>2016-2017</td><td>田 田</td><td>Tony Tian</td></tr>
+            <tr><td>22</td><td>2017-2018</td><td>李震宇</td><td>Andy Li</td></tr>
+            <tr><td>23</td><td>2018-2019</td><td>曹江山</td><td>Victor Cao</td></tr>
+            <tr><td>24</td><td>2019-2020</td><td>高 弘</td><td>Harry Gao</td></tr>
+            <tr><td>25</td><td>2020-2021</td><td>戴晨方</td><td>Connie Dai</td></tr>
+            <tr><td>26</td><td>2021-2022</td><td>金世維</td><td>Claire Jin</td></tr>
+            <tr><td>27</td><td>2022-2023</td><td>李思佳</td><td>Scott Li</td></tr>
+            <tr><td>28</td><td>2023-2024</td><td>莊輝壯</td><td>John Zhuang</td></tr>
+            <tr><td>29</td><td>2024-2025</td><td>莊輝壯</td><td>John Zhuang</td></tr>
+            <tr class="current"><td>30</td><td>2025-2026</td><td>何 冰</td><td>Bing He (Current)</td></tr>
+        </tbody>
+    </table>
+</div>
 
-<center><p><hr width="85%" ></p></center>
-
-<P>
-<CENTER>
-<TABLE WIDTH=350 cellspadding=0 cellspacing=0>
-
-<TR VALIGN=center>
-	<TD><IMG SRC="images/necinab1.gif" ALT=""></TD>
-	<TD><STRONG><A HREF="about.htm">About NECINA</A></STRONG><BR></TD>
-</TR>
-
-<TR VALIGN=center>
-	<TD><IMG SRC="images/necinab1.gif" ALT=""></TD>
-	<TD><STRONG><A HREF="mission.htm">Mission Statement</A></STRONG><BR></TD>
-</TR>
-
-<TR VALIGN=center>
-	<TD><IMG SRC="images/necinab1.gif" ALT=""></TD>
-	<TD><STRONG><A HREF="charter.htm">Charter</A></STRONG><BR></TD>
-</TR>
-
-<TR VALIGN=center>
-	<TD><IMG SRC="images/necinab1.gif" ALT=""></TD>
-	<TD><STRONG><A HREF="organize.htm">Internal Organization</A></STRONG><BR></TD>
-</TR>
-
-<TR VALIGN=center>
-	<TD><IMG SRC="images/necinab1.gif" ALT=""></TD>
-	<TD><STRONG><A HREF="affiliat.htm">Affiliated Organizations</A></STRONG><BR></TD>
-</TR>
-
-<TR VALIGN=center>
-	<TD><IMG SRC="images/necinab1.gif" ALT=""></TD>
-	<TD><STRONG><A HREF="officers.htm">Officers</A></STRONG><BR></TD>
-</TR>
-
-<TR VALIGN=center>
-	<TD><IMG SRC="images/necinab1.gif" ALT=""></TD>
-	<TD><STRONG><a href="sig.htm">Special Interest Group (SIG) Seminars</a></STRONG></TD>
-
-<TR VALIGN=center>
-	<TD><IMG SRC="images/necinab1.gif" ALT=""></TD>
-	<TD><STRONG><A HREF="meminfo.htm">Membership Information</A></STRONG></TD>
-</TR>
-
-<TR VALIGN=center>
-	<TD><IMG SRC="images/necinab1.gif" ALT=""></TD>
-	<TD><STRONG><A href="memserv.htm">Member Services
-</A></STRONG><BR></TD>
-	</TR>
-</TABLE>
-</CENTER>
-<P>
-<center>
-<hr width="85%" >
-
-<a href="042697.htm">Coming Event -- Apr. 26th of 1997<br>
-SIG Seminar:  What is This Sub-Micron Business?<BR>Presented by Spencer Hu</a>
-<p>
-
-<a href="032297.htm">Mar. 22nd of 1997<br>
-SIG Seminar:  Making a Career Move as an Independent Consultant<BR>Presented by Richard Pierce</a>
-<p>
-
-<a href="022297.htm">Feb. 22nd of 1997<br>
-SIG Seminar:  IP Multicasting and Web Netscaping:<BR>The Protocols and their Applications<BR>Presented by David Zhou</a>
-<p>
-
-<a href="necisg08.htm">Jan. 25th of 1997<br>
-SIG Seminar:  Business & Financial Planning<BR>Presented by Dr. Jared Keyes</a>
-<p>
-
-<a href="intsec.htm">Dec. 7th of 1996<br>
-SIG Seminar:  Internet Security<BR>Presented by Alex Chen and Dr. John Zao</a>
-<p>
-
-<a href="openf.htm">Nov. 9th of 1996<br>
-SIG Seminar: Open Forum with Prof. H. T. Kung</a>
-<p>
-
-<a href="101296.htm">Oct. 12th of 1996<br>
-SIG Seminars:  Telecom Network Management & <br>The Last Mile Solution for Public Switched Network<BR>Presented by Mr. Sam Shen & Dr. Shuang Deng</a>
-<p>
-
-<a href="091496.htm">Sep. 14th of 1996<br>
-SIG Seminar:  ATM Technology and Its Applications<BR>Presented by Dr. Nanying Yin</a>
-<p>
-
-<a href="javashop.htm">August 17th of 1996<br>
-SIG Seminar: Java Workshop</a>
-
-<hr width="85%" >
-
-<p>
-Hot Links:<br>
-<p>
-<a href="http://www.cei.go.cn">China Economic Information Network</a>
-<p>
-<a href="http://www.sti.ac.cn">Institute of Scientific and Technical Information of China</a>
-<p>
-For doing business with Taiwan, please visit <BR>
-<b><a href="http://www.ifor.com/teco/default.htm">Taipei Economic Council Office in Boston</b></a>. 
-</center>
-<P>
-<hr width="85%" >
-
-<p>
-<h5>
-<center>This Website is managed by <a href="http://www.anewnet.com/anewtech.htm">Anew Technology Corporation</a> 617.272.2639 (272-ANEW)<br>
-WebKeeper: <a href="mailto:webmaster@anewnet.com">webmaster@anewnet.com<a href="http://www.anewnet.com">
-<p>
-Phone: 617.272.2639,  Fax: 617.272.3940, Email: <a href="mailto:info@anewnet.com">info@anewnet.com</a>
-</h5>
-
-<a href="/elecmall.htm"><img src="/pcstore/images/elecmall.gif" border=0 height=68 width=
-146> 
-
-<a href="http://www.anewnet.com"><img src="images/backicon.gif" border=0></a></center></a>
+<script>
+    // Example JS: Auto-highlight the current year if it exists in the table
+    const rows = document.querySelectorAll('#historyTable tbody tr');
+    const currentYear = new Date().getFullYear();
+    
+    rows.forEach(row => {
+        if(row.innerText.includes(currentYear)) {
+            row.style.borderLeft = "5px solid #3498db";
+        }
+    });
+</script>
 
 </body>
-</html></body>
 </html>
