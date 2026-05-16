@@ -1,6 +1,6 @@
 # 🚀 NECINA 30-Year Web History Discovery Challenge
 
-Welcome to the **NECINA 30-Year Web History Discovery Challenge**! at the formation of NECINA AI Club, this project aims to reconstruct three decades of organizational legacy using modern AI tools and agentic workflows.
+Welcome to the **NECINA 30-Year Web History Discovery Challenge**! This project aims to reconstruct three decades of organizational legacy using modern AI tools and agentic workflows.
 
 The final reconstructed website will be published and hosted at: **[necina-history.github.io/web/](https://necina-history.github.io/web/)**
 
