@@ -38,7 +38,7 @@ Getting started? Check our **[Initial Data Repository](https://github.com/necina
 
 Scan QR code to join Q&A Wechat group.
 
-<img width="885" height="1049" alt="NECINA_CHALLENGE" src="https://github.com/user-attachments/assets/2701d46c-4696-4fc5-959d-cc335e0e3a12" />
+<img width="150" height="150" alt="NECINA_CHALLENGE" src="https://github.com/user-attachments/assets/2701d46c-4696-4fc5-959d-cc335e0e3a12" />
 
 
 ---
