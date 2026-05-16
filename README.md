@@ -36,6 +36,11 @@ We welcome students, developers, historians, and AI enthusiasts of all skill lev
 
 Getting started? Check our **[Initial Data Repository](https://github.com/necina-history/web)** to dive right in.
 
+Scan QR code to join Q&A Wechat group.
+
+<img width="885" height="1049" alt="NECINA_CHALLENGE" src="https://github.com/user-attachments/assets/2701d46c-4696-4fc5-959d-cc335e0e3a12" />
+
+
 ---
 
 ## 🎁 The Reward
