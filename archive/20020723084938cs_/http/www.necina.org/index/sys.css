@@ -1,0 +1,62 @@
+TD {
+FONT-SIZE: 9pt
+}
+A:link {"COLOR: #000000; FONT-FAMILY: "¡ìo?¨¦", "Arial", "Times New Roman"; FONT-SIZE: 9pt
+; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; FONT-FAMILY: "¡ìo?¨¦", "Arial", "Times New Roman"; FONT-SIZE: 9pt
+; TEXT-DECORATION: none
+}
+A:active {
+	FONT-FAMILY: FONT-SIZE:9pt; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #c0c0c0; FONT-SIZE: 9pt;  TEXT-DECORATION: underline
+}
+.buttonover2 {
+	COLOR: #000000; CURSOR: hand
+}
+.button2 {
+	BACKGROUND-COLOR: #004b85; 
+	BORDER-BOTTOM: #000000 1px solid; 
+	BORDER-LEFT: #ffffff 1px solid; 
+	BORDER-RIGHT: #004b85 1px solid; 
+	BORDER-TOP: # 1px solid; 
+	COLOR: #ffffff; CURSOR: hand
+}
+.input1 {
+	BACKGROUND-COLOR: #; 
+	BORDER-BOTTOM: #000000 1px solid; 
+	BORDER-LEFT: # 1px solid; 
+	BORDER-RIGHT: # 1px solid; 
+	BORDER-TOP: # 1px solid; 
+	FONT-SIZE: 10pt; 
+	FONT-STYLE: normal; 
+	FONT-VARIANT: normal; 
+	FONT-WEIGHT: normal; 
+	HEIGHT: 20px; 
+	LINE-HEIGHT: 12pt;
+	COLOR: black" 
+}
+/*
+     FILE ARCHIVED ON 23:09:18 Jul 07, 2002 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:57:04 May 09, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 6.346
+  captures_list: 19.784
+  exclusion.robots: 0.108
+  exclusion.robots.policy: 0.088
+  esindex: 0.019
+  cdx.remote: 119.049
+  LoadShardBlock: 753.742 (3)
+  PetaboxLoader3.datanode: 655.079 (4)
+  PetaboxLoader3.resolve: 584.87 (2)
+  load_resource: 491.301
+*/
