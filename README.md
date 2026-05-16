@@ -34,7 +34,7 @@ We welcome students, developers, historians, and AI enthusiasts of all skill lev
 3. **Build Agents:** Deploy OpenClaw or other AI tools to automate data scraping, synthesis, and layout reconstruction.
 4. **Submit a PR:** Propose your data additions, script improvements, or structural changes via a Pull Request.
 
-Getting started? Check our **[Initial Data Repository]([https://github.com](https://github.com/necina-history/web))** to dive right in.
+Getting started? Check our **[Initial Data Repository](https://github.com/necina-history/web)** to dive right in.
 
 ---
 
